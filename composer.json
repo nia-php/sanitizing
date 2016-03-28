@@ -1,0 +1,23 @@
+{
+  "name" : "nia/sanitizing",
+  "description" : "Sanitizing component provides classes and interfaces to sanitize values.",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "sanitizing", "sanitize", "sanitizer", "trim", "whitespace" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Sanitizing\\" : "sources/",
+      "Test\\Nia\\Sanitizing\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
